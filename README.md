@@ -31,10 +31,10 @@ Loan Default Prediction notebook that predicts risk and also explains why—usin
 ## Dataset
 
 - The dataset is sourced from ...
-- The dataset has ?? rows and ?? columns/features
+- The dataset has 10000 rows and 55 columns/features
 - The dataset covers the period ...
 
-Dataset: ??.csv
+Dataset: loans_full_schema.csv
 
 ---
 
@@ -112,10 +112,12 @@ Instructions for using the project:
 
 ## Credits
 
-- **Tutorials / References:** ITOnlinelearning.com 
-- **Dataset Source:** ITOnlinelearning.com
-- 
+- **Tutorials / References:** 
+- **Dataset Source:** [Loan data from Lending Club - OpenIntro](https://www.openintro.org/data/index.php?data=loans_full_schema)
 
+
+- 
+- 
 ---
 
 ## License
