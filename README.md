@@ -30,7 +30,7 @@ Loan Default Prediction notebook that predicts risk and also explains why—usin
 
 ## Dataset
 
-- The dataset is sourced from ...
+- The dataset is sourced from OpenIntro's Loan data from Lending Club.
 - The dataset has 10000 rows and 55 columns/features
 - The dataset covers the period ...
 
@@ -98,9 +98,10 @@ Instructions for using the project:
 
 ## Analysis & Visualizations 
 
-- There were many missing ...
+- There were many missing in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
+- We are interested in the 'loan_status' feature or column.
 - Lorem ipsum ...
-
+- Lorem ipsum ...
 
 ---
 
