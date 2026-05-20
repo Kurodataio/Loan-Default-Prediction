@@ -33,6 +33,7 @@ Loan Default Prediction notebook that predicts risk and also explains why—usin
 - The dataset is sourced from OpenIntro's Loan data from Lending Club.
 - The dataset has 10000 rows and 55 columns/features
 - One of the key features or columns of interest are the loan status and it's values
+- Our **target feature value of "default" or 1 is 0.0007**, 0 or non-default is 0.9993
 
 Dataset: loans_full_schema.csv
 
