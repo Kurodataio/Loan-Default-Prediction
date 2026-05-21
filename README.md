@@ -22,9 +22,10 @@ Loan Default Prediction notebook that predicts risk and also explains why—usin
 
 ## Overview
 
-- Perform an exploratory data analysis of ...
+- Perform an exploratory data analysis of OpenIntro's Loan data from Lending Club
 - The data will be imported, cleaned and basic analysis performed
 - Visualizations will also be added to aid further analysis and insights
+- Build models to predict risk and also explain why — using models like XGBoost/LightGBM and XAI tools such as SHAP (and optionally LIME)
 
 ---
 
