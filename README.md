@@ -102,17 +102,21 @@ Instructions for using the project:
 
 ## Analysis & Visualizations 
 
-- There were many missing in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
+- There were many missing values in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
 - We are interested in the 'loan_status' feature or column.
-- Lorem ipsum ...
-- Lorem ipsum ...
+- ROC Curve (AUC = 1.0000) is not a useful predictive result
+- A valus of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
+- The data had 7 defaults out of 10,000 loans.
+- The test set had 1 default.
 
 ---
 
 ## Conclusion 
 
-- point 1
-- point 2
+- ** We have a model severely limited by the data**
+- This can be attributed to our dataset being severly imbalanced which synthetic values cannot overcome
+- We could try otther models, such as Random Forest and XGBoost but thwy will not overcome data limitations
+- This project has been a good lesson on the fundamental importance of enough **valid data* for any predictive model
 
 ---
 
