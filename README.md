@@ -2,7 +2,7 @@
 Loan Default Prediction notebook that predicts risk and also explains why—using models like XGBoost/LightGBM and XAI tools such as SHAP (and optionally LIME)
 
 
-[Notebook Link](https://github.com/Kurodataio/Loan-Default-Prediction/loan-default-prediction.ipynb)  
+[Notebook Link](https://github.com/Kurodataio/Loan-Default-Prediction/blob/main/loan-default-prediction.ipynb)  
 
 ---
 
