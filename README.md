@@ -113,10 +113,10 @@ Instructions for using the project:
 
 ## Conclusion 
 
-- ** We have a model severely limited by the data**
+- **We have a model severely limited by the data**
 - This can be attributed to our dataset being severly imbalanced which synthetic values cannot overcome
 - We could try otther models, such as Random Forest and XGBoost but thwy will not overcome data limitations
-- This project has been a good lesson on the fundamental importance of enough **valid data* for any predictive model
+- This project has been a good lesson on the fundamental importance of enough **valid data** for any predictive model
 
 ---
 
