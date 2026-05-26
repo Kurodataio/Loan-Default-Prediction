@@ -3,3 +3,4 @@ anaconda_projects/
 .ipynb_checkpoints/
 loan_default_model.pkl
 loan-default-prediction-Copy1.ipynb
+loan-default-prediction-2.ipynb

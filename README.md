@@ -118,12 +118,10 @@ Instructions for using the project:
 
 ## Credits
 
-- **Tutorials / References:** 
+<!-- - **Tutorials / References:**  -->
 - **Dataset Source:** [Loan data from Lending Club - OpenIntro](https://www.openintro.org/data/index.php?data=loans_full_schema)
 
 
-- 
-- 
 ---
 
 ## License
