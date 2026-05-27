@@ -115,7 +115,9 @@ Instructions for using the project:
 - **open_credit_lines** is the number of active credit accounts. The mean is 11.4 accounts. A moderate number of credit lines suggest prime borrowers, not high risk default risks.
 - **total_credit_limit** is the total credit available to the borrower. Most borrowers have low limits. A small numbers of outliers have strong creditworthiness and hence high credit limits
 - **public_record_bankrupt** is the borrower bankruptcy record. Very few bankruptcies, suggesting a very low risk borrower profile.
-- 
+- **loan_amount** is teh size of the load issued.  A slight left-skew but no clear segmentation or grouping
+
+
 ---
 
 ## Conclusion 
