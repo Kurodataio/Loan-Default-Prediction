@@ -112,7 +112,7 @@ Instructions for using the project:
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
 - **delinq_2y** is the number of delinquencies in the past 2 years. Most borrowers have 0 delinquencies.
-
+- **open_credit_lines** is the number of active credit accounts. The mean is 11.4 accounts. A moderate number of credit lines suggest prime borrowers, not high risk default risks.
 
 ---
 
