@@ -125,6 +125,8 @@ Instructions for using the project:
 
 - **We have a model severely limited by the data**
 - This can be attributed to our dataset being severly imbalanced which synthetic values cannot overcome
+- The EDA shows that moderate loan usage and loan sizes with low delinquencies or bankruptcies
+- We can conclude that the borrower base is **low‑risk**
 - We could try otther models, such as Random Forest and XGBoost but thwy will not overcome data limitations
 - This project has been a good lesson on the fundamental importance of enough **valid data** for any predictive model
 
