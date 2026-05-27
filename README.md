@@ -108,14 +108,15 @@ Instructions for using the project:
 - A valus of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
 - The data had 7 defaults out of 10,000 loans.
 - The test set had 1 default.
-- **emp_length** is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
+- **emp_length** is how long borrowers have been employed and is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
 - **delinq_2y** is the number of delinquencies in the past 2 years. Most borrowers have 0 delinquencies.
 - **open_credit_lines** is the number of active credit accounts. The mean is 11.4 accounts. A moderate number of credit lines suggest prime borrowers, not high risk default risks.
 - **total_credit_limit** is the total credit available to the borrower. Most borrowers have low limits. A small numbers of outliers have strong creditworthiness and hence high credit limits
 - **public_record_bankrupt** is the borrower bankruptcy record. Very few bankruptcies, suggesting a very low risk borrower profile.
-- **loan_amount** is teh size of the load issued.  A slight left-skew but no clear segmentation or grouping
+- **loan_amount** is the size of the load issued.  A slight left-skew but no clear segmentation or grouping
+- **installment** is the monthly payment amount. It has left-skew with an average 476 installemnts.
 
 
 ---
