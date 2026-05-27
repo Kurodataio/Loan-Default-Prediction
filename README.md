@@ -108,7 +108,9 @@ Instructions for using the project:
 - A valus of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
 - The data had 7 defaults out of 10,000 loans.
 - The test set had 1 default.
-
+- **emp_length** is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
+- **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
+- 
 ---
 
 ## Conclusion 
