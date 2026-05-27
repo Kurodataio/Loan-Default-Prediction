@@ -107,12 +107,12 @@ Instructions for using the project:
 - There were many missing values in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
 - We are interested in the 'loan_status' feature or column.
 - ROC Curve (AUC = 1.0000) is not a useful predictive result
-- A values of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
+- A value of 1.0, makes the model a perfect classifier, which is unrealistic and hence invalid
 - **emp_length** is how long borrowers have been employed and is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
 - **delinq_2y** is the number of delinquencies in the past 2 years. Most borrowers have 0 delinquencies.
-- **open_credit_lines** is the number of active credit accounts. The mean is 11.4 accounts. A moderate number of credit lines suggest prime borrowers, not high risk default risks.
+- **open_credit_lines** is the number of active credit accounts. The mean is 11.4 accounts. A moderate number of credit lines suggest prime borrowers, not high default risks.
 - **total_credit_limit** is the total credit available to the borrower. Most borrowers have low limits. A small numbers of outliers have strong creditworthiness and hence high credit limits
 - **public_record_bankrupt** is the borrower bankruptcy record. Very few bankruptcies, suggesting a very low risk borrower profile.
 - **loan_amount** is the size of the load issued.  A slight left-skew but no clear segmentation or grouping
@@ -127,7 +127,7 @@ Instructions for using the project:
 - This can be attributed to our dataset being severly imbalanced which synthetic values cannot overcome
 - The EDA shows that moderate loan usage and loan sizes with low delinquencies or bankruptcies
 - We can conclude that the borrower base is **low‑risk**
-- We dataset has no predictive utility with the Logistic Regression model
+- The dataset has no predictive utility with the Logistic Regression model
 - We could try other models, such as Random Forest and XGBoost but thwy will not overcome data limitations
 - This project has been a good lesson on the fundamental importance of enough **valid data** for any predictive model
 
