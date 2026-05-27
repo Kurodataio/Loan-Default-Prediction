@@ -111,6 +111,8 @@ Instructions for using the project:
 - **emp_length** is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
+- **delinq_2y** is the number of delinquencies in the past 2 years. Most borrowers have 0 delinquencies.
+
 
 ---
 
