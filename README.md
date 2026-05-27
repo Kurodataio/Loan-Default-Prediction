@@ -37,6 +37,8 @@ Loan Default Prediction notebook that predicts risk and also explains why—usin
 - The dataset has 10000 rows and 55 columns/features
 - One of the key features or columns of interest are the loan status and it's values
 - Our **target feature value of "default" or 1 is 0.0007**, 0 or non-default is 0.9993
+- The data had 7 defaults out of 10,000 loans.
+- The test set had 1 default.
 
 Dataset: loans_full_schema.csv
 
@@ -105,9 +107,7 @@ Instructions for using the project:
 - There were many missing values in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
 - We are interested in the 'loan_status' feature or column.
 - ROC Curve (AUC = 1.0000) is not a useful predictive result
-- A valus of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
-- The data had 7 defaults out of 10,000 loans.
-- The test set had 1 default.
+- A values of 1.0, makes the model a perfect classifier, unrealistic and hence invalid
 - **emp_length** is how long borrowers have been employed and is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
