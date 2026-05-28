@@ -106,8 +106,6 @@ Instructions for using the project:
 
 - There were many missing values in annual_income_joint, verification_income_joint, debt_to_income_joint, months_since_last_delinq, months_since_90d_late, months_since_last_credit_inquiry
 - We are interested in the 'loan_status' feature or column.
-- ROC Curve (AUC = 1.0000) is not a useful predictive result
-![ROC Curve – Logistic Regression](images/ROC_Curve_logistic_regression.png)
 - A value of 1.0, makes the model a perfect classifier, which is unrealistic and hence invalid
 ![Distribution Plots](images/distribution_plots.png)
 - **emp_length** is how long borrowers have been employed and is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
@@ -126,6 +124,8 @@ Instructions for using the project:
 ## Conclusion 
 
 - **We have a model severely limited by the data**
+- ROC Curve (AUC = 1.0000) is not a useful predictive result
+![ROC Curve – Logistic Regression](images/ROC_Curve_logistic_regression.png)
 - This can be attributed to our dataset being severly imbalanced which synthetic values cannot overcome
 - The EDA shows that moderate loan usage and loan sizes with low delinquencies or bankruptcies
 - We can conclude that the borrower base is **low‑risk**
