@@ -108,6 +108,7 @@ Instructions for using the project:
 - We are interested in the 'loan_status' feature or column.
 - ROC Curve (AUC = 1.0000) is not a useful predictive result
 - A value of 1.0, makes the model a perfect classifier, which is unrealistic and hence invalid
+![Distribution Plots](images/distribution_plots.png)
 - **emp_length** is how long borrowers have been employed and is right-skewed. There are more short term employed borrowers however the long term employed are the largest singular group
 - **annual_income** is left-skewed. There are more low-moderate income than high income borrowers
 - **debt_to_income** or DTI is left skewed. Most ratios are below 50. There are some outliers over 400.
