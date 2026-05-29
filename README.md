@@ -117,6 +117,8 @@ Instructions for using the project:
 - **public_record_bankrupt** is the borrower bankruptcy record. Very few bankruptcies, suggesting a very low risk borrower profile.
 - **loan_amount** is the size of the load issued.  A slight left-skew but no clear segmentation or grouping
 - **installment** is the monthly payment amount. It has left-skew with an average 476 installemnts.
+- The scatter plots provide further insights into the dataset
+![Scatter Plots](images/scatter_plots.png)
 
 
 ---
