@@ -119,7 +119,8 @@ Instructions for using the project:
 - **installment** is the monthly payment amount. It has left-skew with an average 476 installemnts.
 - The scatter plots provide further insights into the dataset
 ![Scatter Plots](images/scatter_plots.png)
-
+- Annual Income vs Loan Amount
+-- Most loans are below 25% of income. There are a few outliers of loans over 100% of income.
 
 ---
 
