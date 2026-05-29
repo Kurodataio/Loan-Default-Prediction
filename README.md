@@ -128,6 +128,8 @@ Instructions for using the project:
 - Total Credit Limit vs Total Credit Utilized
     - The data shows low utilization with low credit limits. A dense cluster of low‑limit/low‑utilization
     - High utilization tends to indicate financial stress. This again verifies the low risk profile.
+- Installment vs Balance
+    - There is a strong positive correlation between loan balances and innstallments. Larger loans have more installments.
 
 ---
 
