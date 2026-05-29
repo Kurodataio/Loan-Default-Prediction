@@ -130,7 +130,7 @@ Instructions for using the project:
 - The EDA shows that moderate loan usage and loan sizes with low delinquencies or bankruptcies
 - We can conclude that the borrower base is **low‑risk**
 - The dataset has no predictive utility with the Logistic Regression model
-- We could try other models, such as Random Forest and XGBoost but thwy will not overcome data limitations
+- We could try other models, such as Random Forest and XGBoost but they will not overcome data limitations
 - This project has been a good lesson on the fundamental importance of enough **valid data** for any predictive model
 
 ---
