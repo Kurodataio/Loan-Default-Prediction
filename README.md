@@ -121,6 +121,11 @@ Instructions for using the project:
 ![Scatter Plots](images/scatter_plots.png)
 - Annual Income vs Loan Amount
 -- Most loans are below 25% of income. There are a few outliers of loans over 100% of income.
+- DTI (Debt‑to‑Income) vs Interest Rate
+-- Interest rates on debts are not correlated to DTI.
+-- Most of the Lending Club's loans have a DTI under 100% of Income. The outliers may correlate with High Income earners with low default risk
+-- The dataset does not show a correlation between interest rates and DTI (Debt To Income). We would expect that as DTI increases, the interest rate increases.
+
 
 ---
 
